@@ -19,10 +19,9 @@
   border-radius: 8px;
   z-index: -1;
   opacity: 0.15;
-  transition: background 0.9s ease;
 }
 
-.gradient-bg:hover::before {
+.gradient-bg-green:before {
   background: linear-gradient(90deg, rgba(129, 237, 186, 0.00) 0%, #54FFAE 100%);
 }
 
@@ -54,6 +53,10 @@ p {
   font-weight: 600;
   line-height: normal;
   opacity: 1;
+}
+
+.green{
+  color: #54FFAE !important;
 }
 
 /* Margin Styles */

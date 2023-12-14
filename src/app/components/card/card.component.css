@@ -73,6 +73,7 @@
   border: 1px solid #ff6f6f;
   border-radius: 50%;
   margin: 0 5px 0 0;
+  line-height: 24px;
 }
 
 .name {
