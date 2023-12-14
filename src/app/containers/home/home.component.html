@@ -1,0 +1,35 @@
+<div class="container home">
+  <div class="top-gradient" style="width: 333px; margin: auto;">
+    <div class="row no-gutters justify-content-between mt-4 mb-4">
+      <div class="col-9 d-flex justify-content-start align-items-center mt-3">
+        <p class="avatar-header mr-2">AG</p>
+        <div>
+          <p class="name">Alex G</p>
+          <div class="d-flex align-items-center">
+            <img class="mr-1" src="assets/images/vector-1.svg" alt="" />
+            <p class="mr-2">3000 xBits</p>
+            <img class="mr-1" src="assets/images/vector-2.svg" alt="" />
+            <p>85</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-3 d-flex justify-content-end align-items-center">
+        <img src="assets/images/vector-3.svg" alt="" />
+      </div>
+    </div>
+    <h2 class="main-title mt-4 mb-4">Competitions</h2>
+  </div>
+  <div style="max-height: 585px; margin: 0; padding: 0; overflow-y: scroll;">
+    <!-- Cards will of course be rendered dynamically based on
+    info coming from API. They will also contain properties to edit the
+    styles dynamically as well. I focused more on the styling part of the task,
+    however, a dynamic card would look smth like this:
+    <app-card *ngFor="let data of cardData" [cardInfo]="data"></app-card>
+    All the information that is needed to be passed to the cards can be passed
+    via angular inputs @Input().
+    -->
+    <app-card></app-card>
+    <app-card></app-card>
+    <app-card></app-card>
+  </div>
+</div>
