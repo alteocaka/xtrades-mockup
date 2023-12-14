@@ -20,7 +20,8 @@
 }
 
 .btn:hover {
-  background-color: #40444b;
+  /* background-color: #40444b; */
+  background-color: #27533a;
 }
 
 /* Card Styles */
@@ -33,6 +34,11 @@
   backdrop-filter: blur(5px);
   margin: auto;
   padding: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.card:hover{
+  background-color: #23272b;
 }
 
 .title {
